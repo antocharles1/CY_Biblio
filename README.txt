@@ -7,6 +7,7 @@ For launch the program, just tap "./exec" in your terminal (while in this folder
 
 now you can:  create an account, log in and exit.
 to create an account tap 2, after choose if you create an teacher or an student account. enter your name, id and password.
+(all informations of all account are saved in binary, so thanks to that, if somebody open the database, he can not read the password ant id of users.)
 if the id is already choose by another person, you have to choose another.
 CONGRATULATIONS ! YOU HAVE SUCCESFULLY CREATED AN ACCOUNT !
 
