@@ -1,56 +1,89 @@
-HELLO DEAR USER ! 
+HELLO DEAR USER! 
+
 Welcome to our CY_LIBRARY by Antoine TETU and Charles DELPECH.
 
-For use our project, we will explain what you can do with it :
+To use our project, we will explain what you can do with it :
+
 to start here's what you can do :
-For launch the program, just tap "./exec" in your terminal (while in this folder).
 
-now you can:  create an account, log in and exit.
-to create an account tap 2, after choose if you create an teacher or an student account. enter your name, id and password.
-(all informations of all account are saved in binary, so thanks to that, if somebody open the database, he can not read the password ant id of users.)
-if the id is already choose by another person, you have to choose another.
-CONGRATULATIONS ! YOU HAVE SUCCESFULLY CREATED AN ACCOUNT !
+To launch the program, just tap "./exec" in your terminal (while in this folder).
 
-After, you can log in or create an account again. you can also leave, your information is well saved !
 
-to log in, tap 1 !
-after, enter your ID. if your ID does not exist, go back and create your account !
-after enter your secret password.
-now, if your account is a teacher account, you will be directed in your specific menu.
-Same for student's account.
+Now you can:  create an account, log in, and exit.
+
+To create an account tap 2, after choosing if you create a teacher or a student account. enter your name, id, and password.
+
+(all pieces of information of all accounts are saved in binary, so thanks to that, if somebody opens the database, he can not read the password and id of users.)
+
+If another person already chooses the id, you have to choose another.
+
+CONGRATULATIONS! YOU HAVE SUCCESSFULLY CREATED AN ACCOUNT!
+
+
+After, you can log in or create an account again. you can also leave, your information are well saved!
+
+
+To log in, tap 1!
+
+After, entering your ID( if your ID does not exist, go back and create your account!)
+
+and entering your secret password. You can connect to either a teacher account or a student account.
+
+If your account is a teacher account, you will be directed to your specific menu.
+
+Same for the student's account.
+
 
 
 
 IN THE TEACHER ACCOUNT :
-You can save a new book in the database typing 1, enter the author name, choose a cathegory, enter the ISBN or ID book, and to finish enter the title's book.
-an new book appeared in  his cathegory !
+
+You can save a new book in the database by typing 1. You need to enter the author's name, choose a category, enter the ISBN or ID book, and to finish, enter the book's title
+
+A new book will appear in his category!
 
 
-you can borrow 5 book max, and WARNING , you have just 3minutes with the book, if you not return, or return to late the book, your account will be ban !
-for borrow books tap 3 : after you have different cathegory, choose one, and you have all books of this cathegory available (books borrowed by another account are not available).
 
-for return books tap 2 :
-and after tap the number of book that you want return. your books are then replaced in the good place.
+You can borrow 5 books max, and WARNING, you have just 3minutes with the book, if you do not return, or return the book too late, your account will be banned!
 
-to log out, tap 4, dont worry, if you have books, they stay with you , but warning at borrow time !
+To borrow books tap 3: after choosing the category, then choose one, all the books in this category will be available (except books borrowed by another account).
+
+
+To return books tap 2 :
+
+and after typing the number of the book you want to return. Your book will then be replaced in the correct place.
+
+
+To log out, tap 4, don't worry if you have books borrowed, they will stay with you, but don't forget that you have a limited amount of time with those books.
+
 
 
 
 IN THE STUDENT ACCOUNT : 
 
-you can borrow 3 book max, and WARNING , you have just 2 minutes with the book, if you not return, or return to late the book, your account will be ban !
-for borrow books tap 2 : after you have different cathegory, choose one, and you have all books of this cathegory available (books borrowed by another account are not available).
 
-for return books tap 1 :
-and after tap the number of book that you want return. your books are then replaced in the good place.
+You can borrow 3 books max, and WARNING, you can borrow them for just 2 minutes each, if you do not return, or return them late, your account will be banned!
 
-to log out, tap 3, dont worry, if you have books, they stay with you , but warning at borrow time !
+To borrow a book tap 2: choose the category, then choose one, all books in this category will be available (except books borrowed by another account).
+
+
+To return books tap 1 :
+
+and after typing the number of the book that you want to return. Your book will be then be replaced in the correct place.
+
+
+To log out, tap 3, don't worry if you have books borrowed, they will stay with you, but don't forget that you have a limited amount of time with those books.
+
 
 
 TO VIEW CODE : 
- you have 3 doccument (main.c, menu.c, save.c) in the makefile, just open it to view code.
- 
- if you have any probleme or any question contact us at antoine.tetu@cy-tech.fr or charles.delpech@cy-tech.fr
- 
- COPYRIGHT 2022 ANTOINE TETU, CHARLES DELPECH
 
+ You have 3 documents (main.c, menu.c, save.c) in the makefile, just open it to view the code.
+
+ 
+
+ if you have any problems or any questions, contact us at antoine.tetu@cy-tech.fr or charles.delpech@cy-tech.fr
+
+ 
+
+ COPYRIGHT 2022 ANTOINE TETU, CHARLES DELPECH
